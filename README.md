@@ -19,7 +19,7 @@ In a nutshell:
 3. You let your Software Factory automatically refresh its content, based on every markdown text file you will add and modify under your SCM during the lifetime of your project
 4. You may decide to publish its updated content whether on a dedicated web server, on your software factory web server, or simply bundled within the binary packages of your project. 
 
-At the end of the day, __wiked!__ is the best solution to share all your project's domain models, ubiquitous language glossary, dev environments, developer welcome guide, acceptance tests scenarii, etc
+At the end of the day, __wiked!__ is a nice solution to share all your project's domain models, ubiquitous language glossary, dev environments, developer welcome guide, acceptance tests scenarii, etc
 
 Side notes
 ==========
