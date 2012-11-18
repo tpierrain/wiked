@@ -76,7 +76,7 @@ __That's it!__ The generated static web site for your project is then browsable 
 
 wiked! Usage:
 ------
-+ Every developer should now put all the project documentation as markdown files stored within your wiked! web site, just next to your code under the control of your SCM (thus under the __`(pom.xml directory)/src/site/markdown/`__ directory, or under __`(pom.xml directory)/src/site/resources/`__ for images and other referenced files)
++ Every developer should now put all the project documentation as markdown files stored within your wiked! web site, just next to your code under the control of your SCM (thus under the `(pom.xml directory)/src/site/markdown/` directory, or under `(pom.xml directory)/src/site/resources/` for images and other referenced files)
 + Make your software factory regenerating the wiked! web site of your project on every change commited/pushed to your SCM. It is simply a call to __`mvn site`__ on your wiked! pom.xml file.
 + __Warning:__ In some cases (like when changing the project name within the pom.xml file), you will have to fully regenerate the web site. In those cases, call `mvn clean` just before the call to `mvn site`. 
 
