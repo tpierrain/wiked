@@ -1,0 +1,6 @@
+Ubiquitous language for the project ${project.name}
+===================================================
+
+Unique and shared Glossary for all actors of the project (business, dev, support, etc).
+
+See the amazing [Domain Driven Design book](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215). 

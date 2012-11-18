@@ -1,0 +1,50 @@
+# Sample of reliable Markdown syntax
+
+
+This is a sample page in order to show you how to use the Markdown format __with the constraints related to [the tool use to regenerate this site](http://maven.apache.org/plugins/maven-site-plugin/).__
+
+
+Note: If you create files with __'.md.vm'__ extension, you can refer every property located within your pom.xml file (very convenient to respect the DRY principle for information such as the project name for instance (e.g.: __${project.name}__)
+
+Sample of __bold text__
+
+Sample of *Italic text*
+
++ Unordered list sample 1
++ Unordered list sample 2
+
+1. Ordered list sample 1
+2. Ordered list sample 2
+
+Sample of image located within the src/site/resources directory:
+![Dext](./the-wire.jpg "Image title here")
+
+
+Sample of external link: [The Pragmatic Programmer: From Journeyman to Master](http://www.amazon.fr/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
+
+Sample of internal link: [home page](./Index.html)
+
+Sample of level2 header
+-------------
+
+###level 3 header does not work
+
+####level 4 header does not work
+
+#####level 5 header does not work
+
+######level 6 header does not work
+
+
+
+Some text with `some code` inside.
+
+	To produce a code block in Markdown (like this), simply indent every line of the block by at least 4 spaces or 1 tab.
+
+
+-------
+
+For any other Markdown format needs: [__RTFM__](http://daringfireball.net/projects/markdown/basics).
+
+------
+

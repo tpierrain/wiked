@@ -1,0 +1,34 @@
+Knowledge Management Guide
+==========================
+
+Few words regarding our KM approach
+------------------------------------
+
+This page explains you how to contribute and change the content of this automatically generated web site.
+
+To understand why we choose this [DRY](http://en.wikipedia.org/wiki/Don't_repeat_yourself) approach for our Knowledge Management (KM), you can read the 2 posts:
+
++ [It's really time to DRY our apps' Knowledge Management!](http://tpierrain.blogspot.fr/2012/11/its-really-time-for-us-to-dry-our-apps.html)
++ [Collaborative Artifacts as Code](http://cyrille.martraire.com/2012/11/collaborative-artifacts-as-code/)
+
+
+How this static web site content is updated?
+-------------------------------------------
+
+Via the execution of the __`mvn site`__ command-line on the __pom.xml__ file of this project web site (i.e. the maven Project Object Model file). 
+
+This web site template is deliberately packaged as a stand-alone maven project (to ease the integration for non-java projects), but you would rather include our pom.xml content into the pom.xml of your project if you are developing in Java.
+
+Every time you will call __`mvn site`__ on this pom.xml, it will generate this static web site, transforming all the Markdown files stored under the location: __`(pom.xml directory)/src/site/markdown/`__ into __.html__ ones in another target location. 
+
+Notes:
+ 
++ Your markdown files should have the __.md__ extension, or even better: the __.md.vm__ extension to support velocity templates (useful to dynamically refer properties stored within the pom.xml file, such as the project name for instance).
++ Even if all documents or images that should be embedded within this site should be stored under the other directory __`(pom.xml directory)/src/site/resources/`__, every reference to them from within your markdown files should be assuming the fact that they will be stored aside the .html files after the web site generation.
++ In some rare case (when you change the project name within the pom.xml file for instance), you should call __`mvn clean`__ before the __`mvn site`__.
+
+
+
+How to write proper markdown format files
+-----------------------------------------
+As already mentioned above, the maven site plugin force us to follow some conventions (where to store images or documents for instance), I thought the best possible help was to provide you [a sample page with the kind of markdown syntax that is working here](./SampleMarkdownPage.html)

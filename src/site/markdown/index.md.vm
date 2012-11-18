@@ -1,0 +1,10 @@
+${project.name} web site
+========================
+
+Welcome to the ${project.name} web site.
+
+
+This web site is automatically generated from simple [Markdown](http://en.wikipedia.org/wiki/Markdown) files stored within our project Source Control Management System (SCM).
+
+If you want to know how to modify this web site, refer to the [Knowledge Management guide](././KnowledgeManagementGuide.html)
+

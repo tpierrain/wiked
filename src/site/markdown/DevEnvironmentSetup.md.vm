@@ -1,0 +1,18 @@
+Dev Environment Setup
+=====================
+
+(for instance for a .NET project)
+
+Prerequisites:
+--------------
+1. Visual studio 2010
+2. Resharper >= 6
+3. Configure Resharper with Visual Studio keyboard settings. If needed, print the [Resharper 6 Default Keymap](http://www.jetbrains.com/resharper/docs/ReSharper60DefaultKeymap_VS_scheme.pdf)
+4. Install [nuget Visual Studio plugin](http://nuget.org/)
+
+Common Tools:
+------------
+If necessary most of the tools below should be retrieved via nuget
+
++ NUnit
++ [Moq](http://code.google.com/p/moq/)

@@ -1,0 +1,41 @@
+Our team core values/principles and guidelines
+================================
+
+A page to indicate what are the core values, and thus principles, and thus practices for the team.
+
+This is __useful for every newcomer__ in order to easily understand and embrace the mindset of the existing team, __but also in case of design issues arbitration__ (indeed, we can refer to our values to choose the best possible option for us)..
+
+Something like...
+
+Our values
+----------------
+As a team, __we value feedback and care about our craft__
+
+![RedIsDead](./redArrow.jpg)
+
+Our principles
+---------------
+
++ __We practice Continuous Integration__ and not only Continuous Build
+    + Thus, except for patches or exceptional refactorings, __[we don't branch](http://martinfowler.com/bliki/FeatureBranch.html)__. 
++ __We__ iteratively and incrementally __model the domains of our application__ and keep it continuously updated and synchronized with our code
++ __We target 80% of unit test coverage__
++ __We implement the Definition Of Done for every user stories as automated acceptance tests__ (given/when/then)  
++ We target a __B [SQALE rating](http://www.sqale.org/)__ within our sonar	
++ __Continuously and automatically deploy our software__ with the same tool for all environments
++ __We merciless refactor__ our code and architecture
++ __We are [SOLID](http://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29)__
++ Like every __[Pragmatic Programmers](http://www.codinghorror.com/blog/files/pragmatic%20quick%20reference.htm)__, __we don't live with broken windows__
+
+![RedIsDead](./redArrow.jpg)
+
+Our rules
+----------
+
++ __We should commit/push our work to the mainline repository at least once a day__
++ __The software factory is our priority__
+    + __we always fix it when it's broken__
+    + it is our responsibility to __monitor the Software factory health__ and to fix it if necessary __after every commit/push we made to the SCM__
+    + __we don't commit or push new stuffs into our SCM while our Software Factory is broken__
++ __Every class should at least have its responsibilities described in its summary documentation__
++ etc.

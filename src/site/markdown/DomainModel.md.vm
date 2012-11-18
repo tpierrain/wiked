@@ -1,0 +1,15 @@
+Domain models for the project ${project.name}
+==============================================
+
+Table of content for all the domain models of the project (don't forget to split it into several pages for readability purpose).
+
+__Mostly textual documentation__, accompanied with embedded:
+
++ __scanned sketches__
+
++ __whiteboard pictures__
+
++ synchronized __code snippets__ of the business layer code 
+
+
+See [DDD](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) 
