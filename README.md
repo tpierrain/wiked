@@ -68,7 +68,7 @@ To generate the first version of the wiked! site for your project:
     
 3. Set the proper image for your web site banner. You can whether replace/overwrite the `(pom.xml directory)/src/site/resources/BannerImage.jpg` file, or store your own image in the directory `(pom.xml directory)/src/site/resources/` and refer it within the bannerLeft.src__ property of the `(pom.xml directory)/src/site/site.xml` file.
 4. Edit the breadcrumbs items of the `(pom.xml directory)/src/site/site.xml` file in order to set the URLs of your software factory, sonar, scm...
-5. Execute the __`mvn site`__ command-line on your wiked! root pom.xml file in order to generate a classic and static web site (generated in a `(pom.xml directory)/target/site/` directory).
+5. Execute the __`mvn site`__ command-line on your wiked! root pom.xml file in order to generate a classic and static web site
 
 __That's it!__ The generated static web site for your project is then browsable from within the directory __`(pom.xml directory)/target/site/index.html`__. 
 You can now:
