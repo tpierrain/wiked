@@ -71,15 +71,12 @@ To generate the first version of the wiked! site for your project:
 5. Execute the __`mvn site`__ command-line on your wiked! root pom.xml file in order to generate a classic and static web site
 
 __That's it!__ The generated static web site for your project is then browsable from within the directory __`(pom.xml directory)/target/site/index.html`__. 
-You can now:
 
-+ Modify the content of the markdown pages, add new files, new images, etc
-+ Commit/push your tweaked wiked! web site into your project Source Control Management system.
 
 
 wiked! Usage:
 ------
-+ Every developer should now put all the project documentation as markdown files stored within your wiked! web site, just next to your code under the control of your SCM (thus under the __`(pom.xml directory)/src/site/markdown/`__ directory)
++ Every developer should now put all the project documentation as markdown files stored within your wiked! web site, just next to your code under the control of your SCM (thus under the __`(pom.xml directory)/src/site/markdown/`__ directory, or under __`(pom.xml directory)/src/site/resources/`__ for images and other referenced files)
 + Make your software factory regenerating the wiked! web site of your project on every change commited/pushed to your SCM. It is simply a call to __`mvn site`__ on your wiked! pom.xml file.
 + __Warning:__ In some cases (like when changing the project name within the pom.xml file), you will have to fully regenerate the web site. In those cases, call `mvn clean` just before the call to `mvn site`. 
 
