@@ -81,5 +81,5 @@ wiked! Usage:
 ------
 + Every developer should now put all the project documentation as markdown files stored within your wiked! web site, just next to your code under the control of your SCM (thus under the __`(pom.xml directory)/src/site/markdown/`__ directory)
 + Make your software factory regenerating the wiked! web site of your project on every change commited/pushed to your SCM. It is simply a call to __`mvn site`__ on your wiked! pom.xml file.
-+ __Warning:__ In some cases (like when changing the project name within the pom.xml file), you will have to fully regenerate the web site. In those cases, call `__mvn clean__` just before the call to `__mvn site__`. 
++ __Warning:__ In some cases (like when changing the project name within the pom.xml file), you will have to fully regenerate the web site. In those cases, call `mvn clean` just before the call to `mvn site`. 
 
