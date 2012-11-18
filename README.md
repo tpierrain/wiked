@@ -26,7 +26,8 @@ Side notes
 
 + __wiked! leverages the maven site feature__ (cause I really hate to reinvent the wheel ;-)
     + It speeds up your learning curve of the maven site generation with markdown format
-    + It provides you a structure and a nice look n feel for all your agiles & DDD projects web sites. 
+    + It provides you a structure and a nice look n feel for all your agiles & DDD projects web sites
+    + the generation of your static web site from your markdown files is achieved via a call to the `mvn site` command-line on the __pom.xml__ for your web site (or your java project).
 
 
 + __to understand the wiked! genesis__, you may refer to the 3 posts:
@@ -40,7 +41,7 @@ Many thanks
 
 To my mates:
 
-+ [__Cyrille MARTRAIRE__](http://cyrille.martraire.com/), for having given me the inspiration and the strengths to finaly got rid of wikis for my entreprise-class projects
++ [__Cyrille MARTRAIRE__](http://cyrille.martraire.com/), for having given me the inspiration to finaly got rid of wikis for my entreprise-class projects
 + __Christophe LALLEMENT__ and __Alexandre NAVARRO__, for having given me the hint to rely on the existing maven site plugin.
  
 
@@ -57,7 +58,7 @@ wiked! Installation:
 -------------
 To generate the first version of the wiked! site for your project:
 
-1. Copy the content of the wiked! template on your project Source Control Management system (note: the root level is the one with the pom.xml file)
+1. Copy the content of the wiked! template on your project Source Control Management system (note: you should copy the pom.xml but also the entire __src__ sub directories)
 2. Edit the pom.xml file of the wiked! template and set the proper values for the properties:
     + name (name of your project)
     + groupId
@@ -67,7 +68,7 @@ To generate the first version of the wiked! site for your project:
     
 3. Set the proper image for your web site banner. You can whether replace/overwrite the __`(pom.xml directory)/src/site/resources/BannerImage.jpg`__ file, or store your own image in the directory __`(pom.xml directory)/src/site/resources/`__ and refer it within the __bannerLeft.src__ property of the __`(pom.xml directory)/src/site/site.xml`__ file.
 4. Edit the breadcrumbs items of the __`(pom.xml directory)/src/site/site.xml`__ file in order to set the URLs of your software factory, sonar, scm...
-5. Execute the __`mvn site`__ command-line on the wiked! pom.xml file
+5. Execute the __`mvn site`__ command-line on your wiked! root pom.xml file
 
 __That's it!__ The generated static web site for your project is then browsable from within the directory __`(pom.xml directory)/target/site/index.html`__. 
 You can now:
