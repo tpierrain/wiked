@@ -5,7 +5,7 @@ __Wikis are completely inadequate to support the Knowledge Management of our Ent
 
 In order __to Keep together what varies together (source, documentation, etc.), let me introduce you__ the wiki killer for your projects: __wiked!__
 
-__wiked! is a well-structured web site template to be used with maven site in order to generate your project web site (with content based on your markdown files stored next to your code).__
+__wiked! is a well-structured template to be used with maven site in order to generate your project web site (with content based on your markdown files stored next to your code).__
 --------------------------------------------------------------------------------------------
 
 
