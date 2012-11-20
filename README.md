@@ -9,15 +9,13 @@ __wiked! is a web site template to start all your pragmatic (and DRY) project KM
 --------------------------------------------------------------------------------------------
 
 
-How to use it
+Main scenario
 =============
-
-In a nutshell:
 
 1. You store the wiked! web site template next to your source code within your favorite Source Control Management system (SCM)
 2. You personalize this site generator template first, with all your project stakes and specificities 
 	$ editing whether the site.xml structure, the pom.xml project related informations, or the markdown files content
-3. You let your Software Factory (SF) automatically (re)generate __your wiked! project's web site__ (i.e. from the markdown files you've added or modified during the lifetime of your project)
+3. You let your Software Factory (SF) automatically (re)generate __your wiked! project's web site__ every time you change its template markdown content (i.e. any markdown file you add or modify for your project's documentation)
 4. You may let your SF publish your updated static project web site whether on a dedicated web server, on hosted within your software factory web server, or simply bundled within the binary packages of your project 
 
 At the end of the day, __wiked!__ is a nice solution to share all your project's domain models, ubiquitous language glossary, dev environments, developer welcome guide, acceptance tests scenarii, etc
