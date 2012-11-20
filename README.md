@@ -66,7 +66,7 @@ __TO HAVE A QUICK LOOK ON THE WIKED! WEB SITE DEFAULT CONTENT__
 
 2. Execute the __`mvn site`__ command-line on your wiked! root pom.xml file in order to generate the web site
 
-__That's it!__ The generated static web site for your project is then browsable from within the file: __`(pom.xml directory)/target/site/index.html`__. 
+__That's it! The generated static web site for your project is generated and browsable from within the file: `(pom.xml directory)/target/site/index.html`__. 
 
 
 
