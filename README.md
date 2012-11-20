@@ -25,7 +25,7 @@ At the end of the day, __wiked!__ is a nice solution to share all your project's
 
 Side notes
 ==========
-powered by ![powered by maven](http://blog-dev.net/wp-content/uploads/2011/06/logo-maven.png)
+powered by ![powered by maven](http://www.mastertheboss.com/images/stories/jboss/maven/maven-icon_med.png)
 
 + __wiked! leverages the maven site feature__ (cause I really hate to reinvent the wheel ;-)
     + It speeds up your learning curve of the maven site generation with markdown format
