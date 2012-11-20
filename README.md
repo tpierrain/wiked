@@ -60,6 +60,7 @@ Prerequisites:
 wiked! Installation:
 -------------
 __TO HAVE A QUICK LOOK ON THE WIKED! WEB SITE DEFAULT CONTENT__
+
 1. Copy the content of the wiked! template somewhere on your disk 
 	+ you have to copy the pom.xml but also the entire __src__ sub directories
 
