@@ -5,7 +5,7 @@ __Wikis are completely inadequate to support the Knowledge Management of our Ent
 
 In order __to Keep together what varies together (source, documentation, etc.), let me introduce you__ the wiki killer for your projects: __wiked!__
 
-__wiked! is a well-structured template to be used with maven site in order to generate your project web site (with content based on your markdown files stored next to your code).__
+__wiked! is a web site template to start all your pragmatic (and DRY) project KM with.__
 --------------------------------------------------------------------------------------------
 
 
@@ -14,12 +14,15 @@ How to use it
 
 In a nutshell:
 
-1. You store the wiked! web site template next to your code source within your SCM
-2. You personalize it first with your project stakes and specificities
-3. You let your Software Factory automatically refresh its content, based on every markdown text file you will add and modify under your SCM during the lifetime of your project
-4. You may decide to publish its updated content whether on a dedicated web server, on your software factory web server, or simply bundled within the binary packages of your project. 
+1. You store the wiked! web site template next to your source code within your favorite Source Control Management system (SCM)
+2. You personalize this site generator template first, with all your project stakes and specificities 
+	$ editing whether the site.xml structure, the pom.xml project related informations, or the markdown files content
+3. You let your Software Factory automatically (re)generate __ your wiked! project's web site__ (i.e. from the markdown files you've added or modified during the lifetime of your project)
+4. You may decide to publish its updated content whether on a dedicated web server, on your software factory web server, or simply bundled within the binary packages of your project 
 
 At the end of the day, __wiked!__ is a nice solution to share all your project's domain models, ubiquitous language glossary, dev environments, developer welcome guide, acceptance tests scenarii, etc
+
+[__It was really time for us to DRY our apps' Knowledge Management!__](http://tpierrain.blogspot.fr/2012/11/its-really-time-for-us-to-dry-our-apps.html)
 
 Side notes
 ==========
@@ -30,9 +33,9 @@ Side notes
     + the generation of your static web site from your markdown files is achieved via a call to the `mvn site` command-line on the __pom.xml__ for your web site (or your java project).
 
 
-+ __to understand the wiked! genesis__, you may refer to the 3 posts:
-    + [__It's really time to DRY our apps' Knowledge Management!__](http://tpierrain.blogspot.fr/2012/11/its-really-time-for-us-to-dry-our-apps.html)
++ __to understand the wiked! genesis__, you may refer to the post:
     + [__Collaborative Artifacts as Code__](http://cyrille.martraire.com/2012/11/collaborative-artifacts-as-code/)
++ __to understand the maven site implementation used by wiked!, you may refer to the post:
     + [__maven-sites-reloaded__](http://blog.akquinet.de/2012/04/12/maven-sites-reloaded/)
 
 
@@ -41,7 +44,7 @@ Many thanks
 
 To my mates:
 
-+ [__Cyrille MARTRAIRE__](http://cyrille.martraire.com/), for having given me the inspiration to finaly got rid of wikis for my entreprise-class projects
++ [__Cyrille MARTRAIRE__](http://cyrille.martraire.com/), for having given me the inspiration to finally got rid of wikis for my entreprise-class projects
 + __Christophe LALLEMENT__ and __Alexandre NAVARRO__, for having given me the hint to rely on the existing maven site plugin.
  
 
@@ -56,9 +59,24 @@ Prerequisites:
 
 wiked! Installation:
 -------------
+__TO HAVE A QUICK LOOK ON THE WIKED! WEB SITE DEFAULT CONTENT__
+1. Copy the content of the wiked! template somewhere on your disk 
+	+ you have to copy the pom.xml but also the entire __src__ sub directories
+
+2. Execute the __`mvn site`__ command-line on your wiked! root pom.xml file in order to generate the web site
+
+__That's it!__ The generated static web site for your project is then browsable from within the file: __`(pom.xml directory)/target/site/index.html`__. 
+
+
+
+---------------------	
+
 To generate the first version of the wiked! site for your project:
 
-1. Copy the content of the wiked! template on your project Source Control Management system (note: you should copy the pom.xml but also the entire __src__ sub directories)
+1. Copy the content of the wiked! template on your project SCM working directory 
+	+ you have to copy the pom.xml but also the entire __src__ sub directories
+	+ For non-java projects, I suggest you to copy the wiked! template in a `documentation` directory at the root of your project SCM directory 
+
 2. Edit the pom.xml file of the wiked! template and set the proper values for the properties:
     + name (name of your project)
     + groupId
@@ -67,10 +85,12 @@ To generate the first version of the wiked! site for your project:
     + inceptionYear
     
 3. Set the proper image for your web site banner. You can whether replace/overwrite the `(pom.xml directory)/src/site/resources/BannerImage.jpg` file, or store your own image in the directory `(pom.xml directory)/src/site/resources/` and refer it within the bannerLeft.src__ property of the `(pom.xml directory)/src/site/site.xml` file.
+
 4. Edit the breadcrumbs items of the `(pom.xml directory)/src/site/site.xml` file in order to set the URLs of your software factory, sonar, scm...
+
 5. Execute the __`mvn site`__ command-line on your wiked! root pom.xml file in order to generate a classic and static web site
 
-__That's it!__ The generated static web site for your project is then browsable from within the directory __`(pom.xml directory)/target/site/index.html`__. 
+__That's it!__ The generated static web site for your project is then browsable from within the file: __`(pom.xml directory)/target/site/index.html`__. 
 
 
 
