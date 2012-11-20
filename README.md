@@ -8,7 +8,7 @@ In order __to Keep together what varies together (source, documentation, etc.), 
 __wiked! is a web site template to start all your pragmatic (and DRY) project KM with.__
 --------------------------------------------------------------------------------------------
 
-__Wiked! relies on the maven site plugin, but works for every project in every language__ (and don't force you to move your build into maven ;-) 
+__Wiked! relies on the maven site plugin, but works for every kind of project, written in every kind of language__ (and don't force you to move your build into maven ;-) 
 
 
 Main scenario
