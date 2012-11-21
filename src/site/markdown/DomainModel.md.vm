@@ -1,15 +1,29 @@
 Domain models for the project ${project.name}
 ==============================================
 
-Table of content for all the domain models of the project (don't forget to split it into several pages for readability purpose).
-
+ 
+Why should we model our domains?
+-----------------------------------
+Based on [Eric Evans' Domain Driven Design concept (DDD)](http://en.wikipedia.org/wiki/Domain-driven_design), the idea of modeling our domain is about the distillation of our knowledge of the core domain we should focus on.
+ 
+![information](./forbidden.gif) __Warning__
+ 
+The domains we should model here are the domains related to the platform we are building, directly plugged to our use cases (our Core Domain) and not a model achieved in a desperate research of modeling the real world (which is a common mistake). Cause we are here to provide a platform which should help our users in their day to day work. Not to model something that won't have usage in our [Bounded Contexts](http://domaindrivendesign.org/node/91)
+ 
+How
+---
 __Mostly textual documentation__, accompanied with embedded:
-
+ 
 + __scanned sketches__
-
+ 
 + __whiteboard pictures__
-
-+ synchronized __code snippets__ of the business layer code 
-
-
-See [DDD](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) 
+ 
++ synchronized __code snippets__ of the business layer code
+ 
+See [DDD](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215)
+ 
+Our domain models
+-----------------
+ 
++ ...
++ ...

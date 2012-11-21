@@ -1,6 +1,8 @@
 What is wiked!
 ==============
 
+![wiked](./wiked.gif)
+
 __Wikis are completely inadequate to support the Knowledge Management of our Entreprise-class projects__ (they are only relevant for collaborative platforms such as wikipedia)
 
 In order __to Keep together what varies together (source, documentation, etc.), let me introduce you__ the wiki killer for your projects: __wiked!__

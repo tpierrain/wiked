@@ -1,6 +1,24 @@
 Ubiquitous language for the project ${project.name}
 ===================================================
 
+Ubiquitous language is our structured language around the domain model and used by all team members (including domain experts/final users) to connect all the activities of the team with the software.
+ 
+Thus,
+ 
++ we should use it for everything we do: acceptance tests, code, documentation, mails, etc.
++ we should continuously improve it.
+ 
+ 
+![information](./information.gif) __Sanity check__
+ 
+                Every time we modify the model (includes the language we use), we should impact the code, and vice-versa (but don't get started: it has nothing to do with MDA ;-P
+ 
+For more information about Ubiquitous language, see [Domain Driven Design book](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215).
+ 
+Glossary
+--------
+ 
 Unique and shared Glossary for all actors of the project (business, dev, support, etc).
 
-See the amazing [Domain Driven Design book](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215). 
++ ..
++ ..
