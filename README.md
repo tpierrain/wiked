@@ -89,7 +89,7 @@ __TO GENERATE THE FIRST VERSION OF THE WIKED! SITE FOR YOUR PROJECT__
     + inceptionYear
     
     
-3. Set the proper image for your web site banner. You can whether replace/overwrite the `(pom.xml directory)/src/site/resources/BannerImage.jpg` file, or store your own image in the directory `(pom.xml directory)/src/site/resources/` and refer it within the bannerLeft.src__ property of the `(pom.xml directory)/src/site/site.xml` file.
+3. Set the proper image for your web site banner. You can whether replace/overwrite the `(pom.xml directory)/src/site/resources/wiked.gif` file, or store your own image in the directory `(pom.xml directory)/src/site/resources/` and refer it within the bannerLeft.src__ property of the `(pom.xml directory)/src/site/site.xml` file.
 
 
 4. Edit the breadcrumbs items of the `(pom.xml directory)/src/site/site.xml` file in order to set the URLs of your software factory, sonar, scm...
