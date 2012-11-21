@@ -1,7 +1,4 @@
-What is wiked!
-==============
-
-![wiked](./wiked.gif)
+![wiked](https://github.com/tpierrain/wiked/blob/master/marketing/wiked.gif?raw=true)
 
 __Wikis are completely inadequate to support the Knowledge Management of our Entreprise-class projects__ (they are only relevant for collaborative platforms such as wikipedia)
 
