@@ -9,6 +9,8 @@ __wiked! is a markdown-based web site template to start all your pragmatic (and 
 
 __Wiked! relies on the maven site plugin, but works for every kind of project, written in every kind of language__ (and don't force you to move your build into maven ;-) 
 
+![wiked](https://github.com/tpierrain/wiked/blob/master/marketing/wikedCore.png?raw=true)
+
 
 Main scenario
 =============

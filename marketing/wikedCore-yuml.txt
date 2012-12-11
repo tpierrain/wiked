@@ -1,0 +1,5 @@
+[maven site site descriptor (site.xml)]<1-++[wiked! site template]
+[maven site plugins configuration (Pom.xml)]<1-++[wiked! site template{bg:yellow}]
+[wiked! site template]                        maven site execution    -.->[static web site{bg:green}]
+[wiked! site template]++-*>[Markdown file{bg:yellow}]
+[wiked! site template]++-*>[Resource file (e.g. img){bg:yellow}]
